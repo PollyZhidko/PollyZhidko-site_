@@ -14,14 +14,18 @@
             <input type="number" id="initial-investment" placeholder="Enter initial investment">
         </div>
         <div class="input-container">
-            <label for="current-value">Current Value (USD):</label>
-            <input type="number" id="current-value" placeholder="Enter current value">
+            <label for="current-price">Current Price (USD):</label>
+            <input type="number" id="current-price" placeholder="Enter current price">
         </div>
         <div class="input-container">
-            <label for="profit">Profit (USD):</label>
-            <input type="text" id="profit" readonly>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" placeholder="Enter quantity">
         </div>
-        <button id="calculate-button">Calculate</button>
+        <button id="calculate-button">Calculate Profit</button>
+        <div class="result">
+            <p>Your Profit:</p>
+            <p id="profit-result">$0.00</p>
+        </div>
     </div>
     <script src="js/script.js"></script>
 </body>
