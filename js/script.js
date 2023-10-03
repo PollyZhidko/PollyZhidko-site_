@@ -20,4 +20,5 @@ document.addEventListener("DOMContentLoaded", function () {
         profitResult.textContent = `$${profit.toFixed(2)}`;
     });
 });
+
 </script>
