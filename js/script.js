@@ -1,4 +1,3 @@
-<script>
 document.addEventListener("DOMContentLoaded", function () {
     const initialInvestmentInput = document.getElementById("initial-investment");
     const currentPriceInput = document.getElementById("current-value"); // Змінено id на "current-value"
@@ -9,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     calculateButton.addEventListener("click", function () {
         const initialInvestment = parseFloat(initialInvestmentInput.value);
         const currentPrice = parseFloat(currentPriceInput.value);
-        const quantity = parseFloat(quantityInput.value);
+        const quantity = parseFloat(quantityInput.value); // Використовуємо правильний ідентифікатор
 
         if (isNaN(initialInvestment) || isNaN(currentPrice) || isNaN(quantity)) {
             profitResult.textContent = "Invalid input";
@@ -20,6 +19,3 @@ document.addEventListener("DOMContentLoaded", function () {
         profitResult.textContent = `$${profit.toFixed(2)}`;
     });
 });
-
-
-</script>
