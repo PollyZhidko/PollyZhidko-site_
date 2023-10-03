@@ -1,10 +1,10 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
     const initialInvestmentInput = document.getElementById("initial-investment");
-    const currentPriceInput = document.getElementById("current-price");
-    const quantityInput = document.getElementById("quantity");
+    const currentPriceInput = document.getElementById("current-value"); // Змінено id на "current-value"
+    const quantityInput = document.getElementById("quantity"); // Додано id="quantity" в HTML
     const calculateButton = document.getElementById("calculate-button");
-    const profitResult = document.getElementById("profit-result");
+    const profitResult = document.getElementById("profit"); // Змінено id на "profit"
 
     calculateButton.addEventListener("click", function () {
         const initialInvestment = parseFloat(initialInvestmentInput.value);
