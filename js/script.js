@@ -1,3 +1,4 @@
+<script>
 document.addEventListener("DOMContentLoaded", function () {
     const initialInvestmentInput = document.getElementById("initial-investment");
     const currentPriceInput = document.getElementById("current-price");
@@ -19,3 +20,4 @@ document.addEventListener("DOMContentLoaded", function () {
         profitResult.textContent = `$${profit.toFixed(2)}`;
     });
 });
+</script>
