@@ -68,6 +68,7 @@ main {
     display: block;
     width: 20%;
     background-color: rgba(219, 145, 249, 0.719);
+    box-sizing: border-box;
   
 }
 .list1 {
@@ -95,9 +96,10 @@ font-family: "Lucida Console", "Courier New", monospace,sans-serif;
 .right {
     /*float: right;*/
     display: block;
-    width: 100%;
+    width: 80%;
     background-color: #e6b5f8b5;
     padding-left: 25px;
+    box-sizing: border-box;
 
 }
 
