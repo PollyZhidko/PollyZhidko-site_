@@ -63,7 +63,7 @@ main {
     flex-wrap: nowrap;
 }
 
-.right {
+.left {
     float: left;
     display: block;
     width: 20%;
