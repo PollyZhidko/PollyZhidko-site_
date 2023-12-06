@@ -95,6 +95,7 @@ font-family: "Lucida Console", "Courier New", monospace,sans-serif;
 }
 
 .right {
+    float: left;
     display: block;
     width: 80%;
     background-color: #e6b5f8b5;
