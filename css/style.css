@@ -43,12 +43,6 @@ nav {
     display: flex;
 }
 
-.list li {
-    list-style: none;
-    padding: 10px;
-    border: 1px solid transparent;
-}
-
 .list li:hover {
     border: 1px solid black;
 }
@@ -95,13 +89,9 @@ font-family: "Lucida Console", "Courier New", monospace,sans-serif;
 }
 
 .right {
-    float: left;
-    display: block;
-    width: 80%;
+    width: 100%;
     background-color: #e6b5f8b5;
-    padding-left: 52px;
-    box-sizing: border-box;
-    height: 100%;
+    text-align: justify;
 }
 
 footer {
